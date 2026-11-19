@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#69F0AE"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Valve Body (DN400/DN500 High Vacuum Gate) -->
+    <path
+        android:fillColor="#22364B"
+        android:pathData="M32,54 h56 v32 h-56 z" />
+    <!-- Left Flange (To Vessel) & Right Flange (To Diffusion Pump) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M24,50 h8 v40 h-8 z M88,50 h8 v40 h-8 z" />
+    <!-- Internal Gate Seal Plate -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M56,56 h8 v28 h-8 z" />
+    <!-- Pneumatic Actuator Cylinder (Festo 7QMH3) -->
+    <path
+        android:fillColor="#3D5A80"
+        android:pathData="M50,22 h20 v32 h-20 z" />
+    <!-- Magnetic Reed Limit Switches (IFM MK5107 - Open/Close) -->
+    <path
+        android:fillColor="#69F0AE"
+        android:pathData="M70,25 h6 v7 h-6 z" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M70,44 h6 v7 h-6 z" />
+    <!-- Pneumatic Air Supply Connectors -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M44,28 h6 v5 h-6 z M44,45 h6 v5 h-6 z" />
+</vector>

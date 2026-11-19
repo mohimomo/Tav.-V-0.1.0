@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- 1/16 DIN Front Bezel (Eurotherm 3016 / 3216) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M26,24 h68 v68 h-68 z" />
+    <path
+        android:strokeColor="#424242"
+        android:strokeWidth="2"
+        android:pathData="M26,24 h68 v68 h-68 z" />
+    <!-- Upper Digital Temperature Display Screen (Process Value PV) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M34,32 h52 v20 h-52 z" />
+    <!-- Red 7-segment Temperature Digits Simulation: "1350°C" -->
+    <path
+        android:strokeColor="#FF1744"
+        android:strokeWidth="2"
+        android:pathData="M39,36 v12 M47,36 h6 v6 h-6 v6 h6 M59,36 h6 v6 h-6 v6 h6 M71,36 h6 v12 h-6 z" />
+    <!-- Lower Setpoint Display Screen (SV) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M34,56 h52 v14 h-52 z" />
+    <!-- Green Setpoint Digits: "1380" -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M40,60 v6 M48,60 h4 v3 h-4 v3 h4 M58,60 h4 v3 h-4 v3 h4 M68,60 h4 v6 h-4 z" />
+    <!-- Alarm Status LED (AL1 / AL2) -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M36,75 a2.5,2.5 0 1 0 5,0 a2.5,2.5 0 1 0 -5,0 z" />
+    <!-- Front Navigation Membrane Keys -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M52,73 h8 v6 h-8 z M64,73 h8 v6 h-8 z M76,73 h8 v6 h-8 z" />
+</vector>

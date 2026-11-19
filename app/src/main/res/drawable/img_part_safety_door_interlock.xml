@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Switch Body (Schmersal AZM 400 Heavy Die-cast) -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M34,26 h38 v68 h-38 z" />
+    <!-- Yellow Safety Actuator Head -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M38,20 h30 v10 h-30 z" />
+    <!-- Motorized Solenoid Locking Bolt / Pin -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M48,14 h10 v12 h-10 z" />
+    <!-- RFID Sensor Target Antenna Area -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M44,42 a9,9 0 0 0 18,0 M40,38 a13,13 0 0 0 26,0" />
+    <!-- Multi-color Diagnostic LEDs -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M42,60 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0 z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M50,60 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0 z" />
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M58,60 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0 z" />
+    <!-- M12 Connector Base -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M44,94 h18 v8 h-18 z" />
+    <!-- Safety Padlock / Shield Symbol -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M80,50 h16 v16 h-16 z M84,50 v-4 a4,4 0 0 1 8,0 v4" />
+</vector>

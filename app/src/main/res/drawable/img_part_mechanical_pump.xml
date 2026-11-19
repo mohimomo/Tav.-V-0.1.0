@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Pump Body Outline (Rotary Vane Pump SV630B) -->
+    <path
+        android:fillColor="#223348"
+        android:pathData="M24,42 h44 v36 h-44 z" />
+    <!-- Cooling Fins -->
+    <path
+        android:strokeColor="#3A5372"
+        android:strokeWidth="2"
+        android:pathData="M30,42 v36 M38,42 v36 M46,42 v36 M54,42 v36 M62,42 v36" />
+    <!-- Motor Housing -->
+    <path
+        android:fillColor="#2D4460"
+        android:pathData="M68,46 h28 v28 h-28 z" />
+    <!-- Motor Fan Cover -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M96,49 h6 v22 h-6 z" />
+    <!-- Inlet Flange Top -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M36,32 h18 v10 h-18 z" />
+    <!-- Exhaust / Oil Mist Separator -->
+    <path
+        android:fillColor="#456080"
+        android:pathData="M40,24 h10 v8 h-10 z" />
+    <!-- Oil Sight Glass Level -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M27,66 h6 v8 h-6 z" />
+    <!-- Base Plate -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M20,78 h80 v6 h-80 z" />
+    <!-- Flow Arrows / Dynamic lines -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M45,18 v6 M42,21 l3,-3 l3,3" />
+</vector>

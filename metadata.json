@@ -1,0 +1,6 @@
+{
+  "name": "TAV Furnace Guide",
+  "description": "Comprehensive manual, technical specifications, schematics, and smart component & alarm search for TAV Vacuum Furnace TPH 120/120/230 (S/N 911).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

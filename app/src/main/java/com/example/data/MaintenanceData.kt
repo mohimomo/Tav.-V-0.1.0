@@ -1,0 +1,163 @@
+package com.example.data
+
+import com.example.model.MaintenanceTask
+
+object MaintenanceData {
+    val list: List<MaintenanceTask> = listOf(
+        MaintenanceTask(
+            id = "MNT_01",
+            frequencyEn = "Daily",
+            frequencyAr = "يومياً",
+            operationEn = "Pump Oil Level & Contamination Check",
+            operationAr = "فحص مستوى ونظافة زيت مضخات التفريغ",
+            remarksEn = "Switch off pump and check oil level through sight glass. Check color: if too dirty or darkened, replace oil immediately.",
+            remarksAr = "إيقاف المضخة ومراقبة مستوى الزيت عبر زجاجة البيان. فحص لون الزيت: إذا كان داكناً أو ملوثاً يجب استبداله فوراً.",
+            requiredToolsEn = "None (Visual inspection)",
+            requiredToolsAr = "لا يوجد (فحص بصري)",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Operator / مشغل الفرن"
+        ),
+        MaintenanceTask(
+            id = "MNT_02",
+            frequencyEn = "Daily",
+            frequencyAr = "يومياً",
+            operationEn = "Thermocouples & Plugs Inspection",
+            operationAr = "فحص بصري للمزدوجات الحرارية والقوابس",
+            remarksEn = "Furnace cold and pumping off. Visually inspect control and load thermocouples. Replace if break or distortion detected.",
+            remarksAr = "والفرن بارد ومضخات التفريغ متوقفة. فحص سلامة المزدوجات الحرارية واستبدال أي سلك مكسور أو متآكل.",
+            requiredToolsEn = "None",
+            requiredToolsAr = "لا يوجد",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Operator / مشغل الفرن"
+        ),
+        MaintenanceTask(
+            id = "MNT_03",
+            frequencyEn = "Daily",
+            frequencyAr = "يومياً",
+            operationEn = "Heating Chamber & Door Cleaning",
+            operationAr = "تنظيف غرفة التسخين وجوان الباب",
+            remarksEn = "Vacuum clean foreign objects or material deposits from previous thermal cycles. Check integrity of heating elements & ceramics.",
+            remarksAr = "استخدام مكنسة صناعية لإزالة الرواسب والشوائب الناتجة عن المعالجات السابقة، والتأكد من سلامة عوازل السيراميك والمقاومات.",
+            requiredToolsEn = "Industrial vacuum cleaner",
+            requiredToolsAr = "مكنسة شفط صناعية",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Operator / مشغل الفرن"
+        ),
+        MaintenanceTask(
+            id = "MNT_04",
+            frequencyEn = "Daily",
+            frequencyAr = "يومياً",
+            operationEn = "Water Flow & Manometer Verification",
+            operationAr = "التحقق من تدفق المياه وضغوط الغاز والنيوماتيك",
+            remarksEn = "Check water spinning indicators on manifold. Check manometers for pneumatic line (5-6 bar) and gas backfill.",
+            remarksAr = "مراقبة دوران مؤشرات السريان على مجمع المياه، وفحص قراءة مقاييس ضغط الهواء المضغوط (5-6 بار) وخطوط الغاز.",
+            requiredToolsEn = "None",
+            requiredToolsAr = "لا يوجد",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Operator / مشغل الفرن"
+        ),
+        MaintenanceTask(
+            id = "MNT_05",
+            frequencyEn = "Weekly",
+            frequencyAr = "أسبوعياً",
+            operationEn = "Heating Chamber Screws Tightening & Torques",
+            operationAr = "ربط وتأكيد عزم مسامير عناصر التسخين بالفرن",
+            remarksEn = "Put furnace in safety condition (main switch off/padlocked). Check proper tightening of CFC screws:\n• M14 CFC: 2.5 Nm\n• M16 CFC: 3.5 Nm\n• M24 CFC: 8.0 Nm\nCheck alumina supports and molybdenum shields.",
+            remarksAr = "وضع الفرن في حالة الأمان التام (فصل وقفل القاطع الرئيسي). إعادة إحكام ربط مسامير الكربون/الكربون المركب بالعزوم المحددة:\n• مسمار M14 CFC: عزم 2.5 نيوتن.متر\n• مسمار M16 CFC: عزم 3.5 نيوتن.متر\n• مسمار M24 CFC: عزم 8.0 نيوتن.متر\nفحص دعامات الألومينا وشاشات الموليبدينوم.",
+            requiredToolsEn = "Dynamometric torque wrench, mechanical tools",
+            requiredToolsAr = "مفتاح عزم مقنن (Torque wrench)، عدد ميكانيكية",
+            risksEn = "None (with main switch padlocked)",
+            risksAr = "لا توجد (مع قفل القاطع الرئيسي)",
+            responsibility = "Maintenance Technician / فني الصيانة",
+            torques = listOf("M14 CFC -> 2.5 Nm", "M16 CFC -> 3.5 Nm", "M24 CFC -> 8.0 Nm")
+        ),
+        MaintenanceTask(
+            id = "MNT_06",
+            frequencyEn = "Weekly",
+            frequencyAr = "أسبوعياً",
+            operationEn = "Door Vacuum Seal (O-Ring) Maintenance",
+            operationAr = "فحص وتنظيف جوان الباب الفراغي",
+            remarksEn = "Remove dirt using a soft cloth and alcohol. Inspect under light for radial cracks or permanent deformation. Replace if damaged.",
+            remarksAr = "مسح الأتربة والشوائب بقطعة قماش ناعمة وكحول نقي. فحص الجوان بدقة بحثاً عن أي شقوق شعاعية، واستبداله فوراً عند وجود تشوه.",
+            requiredToolsEn = "Alcohol, lint-free duster",
+            requiredToolsAr = "كحول نقي، قماش خالٍ من الوبر",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Maintenance Technician / فني الصيانة"
+        ),
+        MaintenanceTask(
+            id = "MNT_07",
+            frequencyEn = "Weekly",
+            frequencyAr = "أسبوعياً",
+            operationEn = "Furnace Leak Rate Check & Pumping Curve",
+            operationAr = "فحص وتوثيق معدل التسريب ومنحنى سرعة التفريغ",
+            remarksEn = "Perform leak rate test after burnout cycle (empty chamber). Must comply with specification (<25 micron/h). Compare pumping times.",
+            remarksAr = "إجراء اختبار معدل التسريب بعد دورة تنظيف وحرق فارغة، ومقارنته بالحد القياسي (< 25 ميكرون/ساعة) وتسجيل زمن السحب.",
+            requiredToolsEn = "Leak detector (if failed), SCADA log",
+            requiredToolsAr = "كاشف تسريب، سجل SCADA",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Operator / Maintenance Technician"
+        ),
+        MaintenanceTask(
+            id = "MNT_08",
+            frequencyEn = "Monthly",
+            frequencyAr = "شهرياً",
+            operationEn = "Inert Gas Lines Leak Check & Water Hardness Test",
+            operationAr = "فحص تسريب خطوط الغاز واختبار عسورة المياه",
+            remarksEn = "Use detector foam on all gas line fittings. Test cooling water properties: Total Hardness must be <= 15 Fr° (150 mg/l CaCO₃), pH 7-8.",
+            remarksAr = "استخدام رغوة فحص التسريب على جميع وصلات خطوط الغاز. قياس خواص مياه التبريد: يجب ألا تتجاوز العسورة 15 درجة فرنسية والـ pH بين 7 و 8.",
+            requiredToolsEn = "Leak detection foam, water test kit",
+            requiredToolsAr = "رغوة كشف تسريب، جهاز فحص عسورة المياه",
+            risksEn = "None",
+            risksAr = "لا توجد",
+            responsibility = "Maintenance Technician / فني الصيانة"
+        ),
+        MaintenanceTask(
+            id = "MNT_09",
+            frequencyEn = "Six-Monthly",
+            frequencyAr = "كل 6 أشهر",
+            operationEn = "Heating Contactors & Transformer Tightness",
+            operationAr = "فحص كونتكتورات التسخين وإحكام مسامير المحول",
+            remarksEn = "De-energize main isolator! Inspect contactor contact points for pitting. Check primary & secondary side transformer screw tightness.",
+            remarksAr = "فصل القاطع الرئيسي تماماً! فحص نقاط تلامس كونتكتورات القدرة، وإحكام ربط مسامير المحول على الجانب الابتدائي والثانوي وقضبان النحاس.",
+            requiredToolsEn = "Mechanical tools, torque wrench",
+            requiredToolsAr = "أدوات ميكانيكية، مفتاح عزم",
+            risksEn = "Electrical hazards (Padlock main isolator mandatory)",
+            risksAr = "مخاطر كهربائية (يجب إقفال القاطع الرئيسي بالبادلوك)",
+            responsibility = "TAV Authorized Technician / فني TAV معتمد"
+        ),
+        MaintenanceTask(
+            id = "MNT_10",
+            frequencyEn = "Yearly",
+            frequencyAr = "سنوياً",
+            operationEn = "Instrumentation Calibration & General Electrical Overhaul",
+            operationAr = "معايرة أجهزة القياس والفحص الشامل للمنظومة الكهربائية",
+            remarksEn = "Calibrate Eurotherm EPC3016, 6180A recorder, and thermocouple channels with precision calibrator. Clean electrical cabinets with vacuum.",
+            remarksAr = "معايرة أجهزة التحكم EPC3016، مسجل 6180A، وقنوات درجات الحرارة بجهاز معايرة مرجعي، وشفط الأتربة من اللوحات الكهربائية.",
+            requiredToolsEn = "Precision calibrator, vacuum cleaner",
+            requiredToolsAr = "جهاز معايرة دقيق (Calibrator)، مكنسة شفط",
+            risksEn = "Electrical risks",
+            risksAr = "مخاطر كهربائية",
+            responsibility = "TAV Authorized Technician / فني TAV معتمد"
+        ),
+        MaintenanceTask(
+            id = "MNT_11",
+            frequencyEn = "Triennial (Every 36 Months)",
+            frequencyAr = "كل 3 سنوات (36 شهراً)",
+            operationEn = "Safety Relief Valve Factory Calibration",
+            operationAr = "معايرة صمام أمان الضغط في المصنع المصنع",
+            remarksEn = "Max working time of the safety relief valve is 36 months. Valve must be dismantled and returned to manufacturer for certified calibration.",
+            remarksAr = "أقصى فترة تشغيل لصمام أمان الضغط الزائد هي 36 شهراً، ويجب فك الصمام وإرساله للمصنع لإعادة اختباره ومعايرته رسمياً.",
+            requiredToolsEn = "Mechanical disassembly tools",
+            requiredToolsAr = "أدوات فك ميكانيكية",
+            risksEn = "None (machine de-pressurized)",
+            risksAr = "لا توجد (مع تفريغ ضغط الفرن بالكامل)",
+            responsibility = "Manufacturer Service / خدمة المصنع TAV"
+        )
+    )
+}

@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Diffusion Pump Cylindrical Body (Varian NHS 35) -->
+    <path
+        android:fillColor="#243447"
+        android:pathData="M38,28 h44 v50 h-44 z" />
+    <!-- Cooling Water Coils Wrapping Body -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M34,36 h52 M34,44 h52 M34,52 h52 M34,60 h52 M34,68 h52" />
+    <!-- Top High Vacuum Flange -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M30,22 h60 v6 h-60 z" />
+    <!-- Internal Vapor Jet Jet Assembly Cone -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M60,32 l14,24 h-28 z" />
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M60,46 l18,24 h-36 z" />
+    <!-- Foreline Fore-vacuum Arm Tube -->
+    <path
+        android:fillColor="#3A5372"
+        android:pathData="M82,58 h18 v12 h-18 z" />
+    <!-- Boiler Base (Oil heating area 230°C) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M34,78 h52 v14 h-52 z" />
+    <!-- Electric Heating Elements Indicators -->
+    <path
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="2"
+        android:pathData="M40,85 h40" />
+</vector>

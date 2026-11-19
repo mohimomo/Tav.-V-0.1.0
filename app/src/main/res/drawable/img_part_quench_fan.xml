@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Outer Turbine Blower Bell Housing -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M24,28 h44 v56 h-44 z" />
+    <!-- Dynamic Fan Impeller Blades -->
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2.5"
+        android:pathData="M46,40 l0,32 M30,56 l32,0 M35,45 l22,22 M35,67 l22,-22" />
+    <!-- Center Impeller Shaft Dome -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M42,52 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0 z" />
+    <!-- Heavy 110 kW Drive Motor Housing -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M68,36 h34 v40 h-34 z" />
+    <!-- Motor Cooling Fins -->
+    <path
+        android:strokeColor="#546E7A"
+        android:strokeWidth="2"
+        android:pathData="M76,36 v40 M84,36 v40 M92,36 v40" />
+    <!-- High-velocity Gas Stream Arrows -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M18,36 h6 M18,56 h6 M18,76 h6" />
+</vector>

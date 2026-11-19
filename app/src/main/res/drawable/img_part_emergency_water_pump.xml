@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Emergency Gas/Pneumatic Drive Cylinder -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M24,34 h36 v28 h-36 z" />
+    <!-- Nitrogen/Gas Supply Line -->
+    <path
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="2.5"
+        android:pathData="M20,40 h10 M20,54 h10" />
+    <!-- High-pressure Booster Hydraulic Section -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M60,38 h40 v20 h-40 z" />
+    <!-- Water Output Flange -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M85,26 h10 v12 h-10 z" />
+    <!-- Emergency Warning Symbol Badge -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M42,70 l12,20 h-24 z" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M42,76 v7 M42,86 v2" />
+    <!-- Base Mounting -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M18,66 h84 v5 h-84 z" />
+</vector>

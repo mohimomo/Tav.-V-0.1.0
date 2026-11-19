@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#FF6D00"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- SCR Thyristor Heat Sink Aluminum Block -->
+    <path
+        android:fillColor="#243447"
+        android:pathData="M26,30 h68 v58 h-68 z" />
+    <!-- Large Cooling Fins -->
+    <path
+        android:strokeColor="#455A64"
+        android:strokeWidth="2"
+        android:pathData="M32,30 v58 M40,30 v58 M48,30 v58 M72,30 v58 M80,30 v58 M88,30 v58" />
+    <!-- Thyristor Power Modules (3-Phase Eurotherm/CD Automation) -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M52,36 h16 v22 h-16 z" />
+    <!-- Fast High-Speed Semiconductor Fuses (Protistor 690V) -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M54,64 h12 v18 h-12 z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,71 h12 v4 h-12 z" />
+    <!-- Busbar Heavy Copper Terminals -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M36,20 h8 v10 h-8 z M56,20 h8 v10 h-8 z M76,20 h8 v10 h-8 z" />
+    <!-- Temperature Sensor Thermal Trip Wire -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="1.5"
+        android:pathData="M34,80 l12,0 l6,-8" />
+</vector>

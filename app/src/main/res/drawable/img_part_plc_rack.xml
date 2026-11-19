@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#7C4DFF"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Siemens S7-1513 PLC Rack -->
+    <path
+        android:fillColor="#243447"
+        android:pathData="M24,28 h72 v64 h-72 z" />
+    <!-- CPU Module (Siemens 1513-1 PN) with LCD Screen -->
+    <path
+        android:fillColor="#00646E"
+        android:pathData="M28,32 h22 v56 h-22 z" />
+    <!-- CPU Mini LCD Screen -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M32,38 h14 v16 h-14 z" />
+    <!-- Run / Stop / Maint LEDs -->
+    <path
+        android:fillColor="#69F0AE"
+        android:pathData="M33,60 a2,2 0 1 0 4,0 a2,2 0 1 0 -4,0 z" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M39,60 a2,2 0 1 0 4,0 a2,2 0 1 0 -4,0 z" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M33,68 a2,2 0 1 0 4,0 a2,2 0 1 0 -4,0 z" />
+    <!-- PROFINET RJ45 Ethernet Ports -->
+    <path
+        android:fillColor="#76FF03"
+        android:pathData="M34,76 h10 v8 h-10 z" />
+    <!-- Digital/Analog IO Modules (DI/DO/AI/TC) -->
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M54,32 h40 v56 h-40 z" />
+    <path
+        android:strokeColor="#455A64"
+        android:strokeWidth="1.5"
+        android:pathData="M64,32 v56 M74,32 v56 M84,32 v56" />
+    <!-- Module Status Green LEDs Rows -->
+    <path
+        android:fillColor="#69F0AE"
+        android:pathData="M57,36 h2 v2 h-2 z M67,36 h2 v2 h-2 z M77,36 h2 v2 h-2 z M87,36 h2 v2 h-2 z" />
+</vector>

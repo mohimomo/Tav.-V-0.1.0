@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Frame -->
+    <path
+        android:fillColor="#151E28"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="2"
+        android:pathData="M10,10 h100 a8,8 0 0 1 8,8 v84 a8,8 0 0 1 -8,8 h-100 a8,8 0 0 1 -8,-8 v-84 a8,8 0 0 1 8,-8 z" />
+    <!-- Centrifugal Pump Casing (Lowara / Wilo 15 kW) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M30,46 a18,18 0 1 0 36,0 a18,18 0 1 0 -36,0 z" />
+    <!-- Pump Impeller Hub -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M44,46 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0 z" />
+    <!-- Suction Axial Flange -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M20,42 h10 v8 h-10 z" />
+    <!-- Discharge Vertical Flange Top -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M44,22 h10 v12 h-10 z" />
+    <!-- Electric Drive Motor Housing -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M66,34 h34 v24 h-34 z" />
+    <!-- Motor Cooling Ribs -->
+    <path
+        android:strokeColor="#607D8B"
+        android:strokeWidth="1.5"
+        android:pathData="M72,34 v24 M78,34 v24 M84,34 v24 M90,34 v24 M96,34 v24" />
+    <!-- Motor Terminal Box -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M76,27 h12 v7 h-12 z" />
+    <!-- Foundation Bedplate -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M16,74 h88 v6 h-88 z" />
+    <!-- Water Flow Stream line -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M18,46 h12 M49,20 v8" />
+</vector>

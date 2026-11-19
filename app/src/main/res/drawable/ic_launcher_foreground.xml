@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main Furnace Outer Chamber (centered in safe zone 66dp: 21 to 87) -->
+    <path
+        android:pathData="M33,36 C33,31 37,27 42,27 L66,27 C71,27 75,31 75,36 L75,70 C75,75 71,79 66,79 L42,79 C37,79 33,75 33,70 Z"
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5" />
+
+    <!-- Top Gas / Exhaust Flange -->
+    <path
+        android:pathData="M50,22 L58,22 L58,27 L50,27 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M47,20 L61,20 L61,22 L47,22 Z"
+        android:fillColor="#0284C7" />
+
+    <!-- Furnace Door Hinge & Latch Clamping mechanism -->
+    <path
+        android:pathData="M30,42 L33,42 L33,64 L30,64 Z"
+        android:fillColor="#F59E0B" />
+    <path
+        android:pathData="M75,44 L78,44 L78,48 L75,48 Z"
+        android:fillColor="#F59E0B" />
+    <path
+        android:pathData="M75,58 L78,58 L78,62 L75,62 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Heating Chamber Glow Core -->
+    <path
+        android:pathData="M40,40 C40,37 42,35 45,35 L63,35 C66,35 68,37 68,40 L68,66 C68,69 66,71 63,71 L45,71 C42,71 40,69 40,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="35"
+                android:endX="54"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7C2D12" />
+                <item android:offset="0.5" android:color="#EA580C" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Heating Resistor Coils (3-zone furnace) -->
+    <path
+        android:pathData="M44,43 L64,43 M44,49 L64,49 M44,55 L64,55 M44,61 L64,61"
+        android:strokeColor="#FEF08A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Base Support Legs -->
+    <path
+        android:pathData="M37,79 L37,87 M71,79 L71,87 M33,87 L75,87"
+        android:strokeColor="#64748B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Small vacuum gauge needle / status dot -->
+    <path
+        android:pathData="M54,30 A2,2 0 1,1 53.9,30 Z"
+        android:fillColor="#10B981" />
+</vector>
